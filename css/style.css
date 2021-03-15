@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+.align_center{
+	align-items: center;
+}
+body{
+
+}
+.header_section{
+    background-color: #FCDB00;
+    padding: 50px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+.logo img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 24px;
+    color: #010101;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    display: block;
+    padding: 0 15px;
+}
+nav ul li a:hover{}
+
+.slider_section{
+    flex-basis: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+.slider_section h1{
+    font-size: 32px;
+}
+.slider_section h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 10px 0;
+    color: #444;
+}
+.slider_section p{
+    font-size: 18px;
+    color: #555;
+}
+ul.brand_list{
+    display: flex;
+    flex-wrap: wrap;
+} /*ul er por space sara dot mane ul er vitore class brand list, space thakle brand list hbe tag.*/
+ul.brand_list li{
+    font-size: 50px;
+    padding: 10px 20px 0 0;
+}
+ul.brand_list li a{}
+ul.brand_list li a:hover{}
+
+.slider_img{
+    flex-basis: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.slider_img img{}
+
+ul.bullet_list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+ul.bullet_list li{
+    padding: 4px;
+    list-style: none;
+}
+ul.bullet_list li a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffffff94;
+    border-radius: 50%;
+}
+ul.bullet_list li a:hover{
+    background: #fff;
+}
+
+.feature_section{
+    padding: 100px 0;
+}
+.feature_section h1{}
+.feature_section p{}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{font-size: 32px;}
+.header p{
+    font-size: 18px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.feature_icon{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    font-size: 35px;
+}
+.feature_icon i{}
+
+.feature_content{}
+.feature_content h2{}
+.feature_content p{}
+
+/*footer_section*/
+.footer_section{
+    background-color: #000;
+    padding: 100px 0 50px;
+}
+.subscription_form{text-align: center;}
+.subscription_form h1{
+    font-size: 32px;
+    color: #fcdb00;
+}
+.subscription_form p{
+    color: #ffffffc9;
+    font-size: 18px;
+    max-width: 749px;
+    margin: auto;
+}
+
+form{
+    padding: 50px;
+}
+form .input{
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 0 5px;
+}
+form .input input{
+    width: 100%;
+    border: 0;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+}
+form .submit{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 0 5px;
+}
+form .submit input{
+    border: 1px solid transparent; /*kono kapakapi cholbe na by using border transparent*/
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #fcdb00;
+    font-weight: 700;
+}
+form .submit input:hover{
+    background-color: transparent;
+    border: 1px solid #fcdb00;
+    color: #fcdb00;
+}
+
+.social_link{
+    display: flex;
+    justify-content: center;
+}          /*u can use here ul befor the dot or not*/
+.social_link li{
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.social_link li a{
+    background: #fcdb00;
+    color: #000;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 25px;
+}
+.social_link li a:hover{}
+
+.address{max-width: 30%;flex-basis: 30%;}
+.address address{
+    color: #eeeeeed4;
+    font-size: 22px;
+}
+
+.footer_col{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.footer_col ul{
+    list-style: none;
+}
+.footer_col ul li{}
+.footer_col ul li a{
+    color: #ffffffc7;
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer_col ul li a:hover{
+    color: #fcdb00;
+}
